@@ -1,4 +1,4 @@
-change-color{
+@keyframes change-color{
     14%{color:red;}
     28%{color:orange;}
     42%{color:rgb(230, 230, 70);}
