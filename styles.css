@@ -1,3 +1,17 @@
+change-color{
+    14%{color:red;}
+    28%{color:orange;}
+    42%{color:rgb(230, 230, 70);}
+    56%{color:lightgreen;}
+    70%{color:blue;}
+    84%{color:blueviolet;}
+    100%{color:purple;}
+}
+h2{
+    animation-name:change-color;
+    animation-duration:7s;
+    animation-iteration-count:infinite;
+}
 p{
     padding-left:10px;
 }
