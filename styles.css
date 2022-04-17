@@ -15,3 +15,36 @@ h2{
 p{
     padding-left:10px;
 }
+.Base {
+    width: 150px;
+    height: 50px;
+    margin: 10px 0 10px 500px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 0 rgba(157, 139, 127, 0.25);
+    background-color: #c20c8bde;
+    color: white;;
+    }
+    .BG-Copy {
+    margin: 10px 40px 10px 10px;
+    padding: 10px 5px 10px 5px;
+    border-color: #2f3944 ;
+    }
+    table {
+    border:2px solid #2f3944;
+    font-family: 微軟正黑體;
+    font-size:16px;
+    text-align:center;
+    border-collapse:collapse;
+    }
+    th {
+    background-color: #c20c8bde;
+    border:1px solid #2f3944;
+    color:#fff;
+    }
+    td {
+    border:1px solid #2f3944;
+    }
+    tr{
+    height:60px;
+    }
