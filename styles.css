@@ -7,7 +7,7 @@
     84%{color:blueviolet;}
     95%{color:purple;}
 }
-h2{
+h1{
     animation-name:change-color;
     animation-duration:7s;
     animation-iteration-count:infinite;
@@ -19,7 +19,7 @@ h2{
     text-align: center;
   }
 p{
-    padding-left:10px;
+    padding-left:0px;
 }
 .Base {
     width: 150px;
