@@ -5,13 +5,19 @@
     56%{color:lightgreen;}
     70%{color:blue;}
     84%{color:blueviolet;}
-    100%{color:purple;}
+    95%{color:purple;}
 }
 h2{
     animation-name:change-color;
     animation-duration:7s;
     animation-iteration-count:infinite;
+    font-family: 微軟正黑體;
+    text-align:center
 }
+
+.center{
+    text-align: center;
+  }
 p{
     padding-left:10px;
 }
