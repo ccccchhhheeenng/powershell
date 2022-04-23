@@ -1,3 +1,4 @@
+
 @keyframes change-color{
     14%{color:red;}
     28%{color:orange;}
@@ -5,21 +6,17 @@
     56%{color:lightgreen;}
     70%{color:blue;}
     84%{color:blueviolet;}
-    95%{color:purple;}
+    100%{color:purple;}
 }
-h1{
+h1,.rainbow{
     animation-name:change-color;
     animation-duration:7s;
     animation-iteration-count:infinite;
-    font-family: 微軟正黑體;
-    text-align:center
 }
-
-.center{
-    text-align: center;
-  }
-p{
-    padding-left:0px;
+p,{
+    padding-left:10px;
+    background-color: #fff;
+    column-width: auto;
 }
 .Base {
     width: 150px;
@@ -54,3 +51,32 @@ p{
     tr{
     height:60px;
     }
+#a {
+    {margin-bottom:15px; height:100px; line-height:100px; text-align:center; font-size:24px; color:#fff; background:black;}
+}
+#b{
+    text-align: center
+
+}
+
+
+#sidebar_left{
+    }
+    #sidebar_right{
+    }
+    #content{
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    height:auto;
+    width: auto;
+    text-align: center
+     }
+     #msgboard{
+        top: 50%;
+        left: 50%;
+        background-color: black;
+        height:auto;
+        width: auto;
+         }
+         
