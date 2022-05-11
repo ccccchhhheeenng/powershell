@@ -35,17 +35,28 @@ h1,{
     text-align: center
     }
 
-#pic{
-    left: 50%;
+#pic1{
+    position: relative;
+    width: 28%;
+    left: 5%;
+}
+#pic2{
+
+}
+#pic3{
+
 }
 
 #noespbutton{
     cursor: pointer;
     box-shadow: 0px 0px 5px #000000;
-    width: 200px;
+    left: 10%;
+    width: 75%;
     height: 200px;
-    background-image: url(https://i.imgur.com/30dGXur.png);
+    background-image: url(https://i.imgur.com/cU2ZP6F.png);
     background-size: cover;
+    margin: 0px;
+    border: 0px;
 }
 .stitdiv{
     position:relative;
@@ -55,13 +66,8 @@ h1,{
 #stitp{
     text-align: center;
     font-size: 20px;
-    font-weight: 50%;
+
     background-color: blanchedalmond;
-}
-.button{
-    display: flex;
-    position: relative;
-    left: 25%;
 }
 #in{
     font-size: 20px;
@@ -84,9 +90,9 @@ h1,{
     background-color: white;
 }
 #sidebar_left2{
-    position: relative;
+    position: fixed;
     left: 2.5%;
-    top: 100px;
+    top: 250px;
     width:20%;
     background-color: white;
 }
@@ -98,7 +104,11 @@ h1,{
     background-image: url(https://www.facebook.com/images/fb_icon_325x325.png);
     background-size: cover;
 }
-
+.stita{
+    position:relative;
+    width:28%;
+    left: 5%;
+}
 
 
 
