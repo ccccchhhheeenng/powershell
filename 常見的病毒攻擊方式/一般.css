@@ -41,19 +41,45 @@ h1,{
     left: 5%;
 }
 #pic2{
-
+    position: relative;
+    width: 28%;
+    left: 36.6%;
 }
 #pic3{
-
+    position: relative;
+    width: 28%;
+    left: 67.5%;
 }
 
-#noespbutton{
+#分區攻擊{
     cursor: pointer;
     box-shadow: 0px 0px 5px #000000;
     left: 10%;
     width: 75%;
     height: 200px;
     background-image: url(https://i.imgur.com/cU2ZP6F.png);
+    background-size: cover;
+    margin: 0px;
+    border: 0px;
+}
+#修改副檔名開啟方式{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000000;
+    left: 10%;
+    width: 75%;
+    height: 200px;
+    background-image: url(https://i.imgur.com/B0N4abF.png);
+    background-size: cover;
+    margin: 0px;
+    border: 0px;
+}
+#禁用鍵盤{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000000;
+    left: 10%;
+    width: 75%;
+    height: 200px;
+    background-image: url(https://i.imgur.com/OOQHaYX.png);
     background-size: cover;
     margin: 0px;
     border: 0px;
@@ -109,6 +135,16 @@ h1,{
     width:28%;
     left: 5%;
 }
+.stitb{
+    position:relative;
+    width:28%;
+    left: 36.6%;
+}
+.stitc{
+    position:relative;
+    width:28%;
+    left: 67.5%;   
+}
 
 
 
@@ -149,7 +185,7 @@ background-color: #000;
 }
 
 nav ul li ul a {
-background-color: #0053D9;
+background-color: white;
 }
 
 
