@@ -19,11 +19,6 @@
     position:absoulte;
     z-index:9999;
 }
-h1,{
-    animation-name:change-color;
-    animation-duration:7s;
-    animation-iteration-count:infinite;
-}
 
 #center{
     position: absolute;
@@ -51,39 +46,7 @@ h1,{
     left: 67.5%;
 }
 
-#分區攻擊{
-    cursor: pointer;
-    box-shadow: 0px 0px 5px #000000;
-    left: 10%;
-    width: 75%;
-    height: 200px;
-    background-image: url(https://i.imgur.com/cU2ZP6F.png);
-    background-size: cover;
-    margin: 0px;
-    border: 0px;
-}
-#修改副檔名開啟方式{
-    cursor: pointer;
-    box-shadow: 0px 0px 5px #000000;
-    left: 10%;
-    width: 75%;
-    height: 200px;
-    background-image: url(https://i.imgur.com/B0N4abF.png);
-    background-size: cover;
-    margin: 0px;
-    border: 0px;
-}
-#禁用鍵盤{
-    cursor: pointer;
-    box-shadow: 0px 0px 5px #000000;
-    left: 10%;
-    width: 75%;
-    height: 200px;
-    background-image: url(https://i.imgur.com/OOQHaYX.png);
-    background-size: cover;
-    margin: 0px;
-    border: 0px;
-}
+
 .stitdiv{
     position:relative;
     width:50%;
