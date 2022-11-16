@@ -1,8 +1,9 @@
-if (Get-Process |where{$_.Name -match "excel"}) {
-    cmd /c "taskkill /im excel.exe /f"
-    echo "The process has been killed"
+Out-Null
+if (Get-Process |Where-Object{$_.Name -match "word"}) {
+    cmd /c "taskkill /im word.exe /f"
+    Write-Output "The process has been killed"
 }
 else {
     <# Action when all if and elseif conditions are false #>
-    echo "process not found"
+    Write-Output "process not found"
 }
