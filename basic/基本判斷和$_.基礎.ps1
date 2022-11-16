@@ -6,7 +6,7 @@ if (Get-Process |Where-Object{($_.Name) -match $a}) {
         Write-Output "The process has been killed"
     }else{
         Get-Process |Where-Object{$_.Name -match $a}
-        Write-Output "Choose the process youwant to kill"
+        Write-Output "Choose the process you want to kill"
         $id=Read-Host -Prompt "pid"
         Stop-Process -id $id -Confirm
         Write-Output "The process has been killed"
