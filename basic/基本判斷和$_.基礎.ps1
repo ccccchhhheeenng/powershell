@@ -5,12 +5,12 @@ if (Get-Process |Where-Object{($_.Name) -match $a}) {
         Stop-Process -Name $a -Confirm
         Write-Output "The process has been killed"
     }else{
-        Get-Process |Where-Object{$_.Name -match "notepad"}
+        Get-Process |Where-Object{$_.Name -match $a}
         Write-Output "Choose the process youwant to kill"
         $id=Read-Host -Prompt "pid"
         Stop-Process -id $id -Confirm
         Write-Output "The process has been killed"
     }
 }else{
-    Write-Output "process not found"
+    Write-Output "Process not found"
 }
