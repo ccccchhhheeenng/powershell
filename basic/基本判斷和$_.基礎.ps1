@@ -9,7 +9,7 @@ if (Get-Process |Where-Object{($_.Name) -match $a}) {
         Write-Output "Choose the process you want to kill,input a to kill all"
         $id=Read-Host -Prompt "pid"
         if ($id -eq "a"){
-            Stop-Process -Name $av
+            Stop-Process -Name -match $a
             Write-Output "All of the process has been killed"
         }else{
         Stop-Process -id $id -Confirm
@@ -19,3 +19,4 @@ if (Get-Process |Where-Object{($_.Name) -match $a}) {
 }else{
     Write-Output "Process not found"
 }
+Get-Process | Where-Object {$_.HasExited}
