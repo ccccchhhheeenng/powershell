@@ -1,0 +1,10 @@
+$a=Read-Host
+for ($i = 0; $i -lt $a; $i++) {
+    Write-Output $i
+}
+Write-Output --
+$i=0
+while ($i -lt $a) {
+    Write-Output $i
+    $i++
+}
